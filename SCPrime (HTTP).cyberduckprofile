@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>SCPrime (HTTP)</string>
+        <key>Default Nickname</key>
+        <string>SCPrime (HTTP)</string>
+        <key>Scheme</key>
+        <string>http</string>
+        <key>Description</key>
+        <string>SCPrime (HTTP)</string>
+        <key>Default Port</key>
+        <string>9000</string>
+        <key>Hostname Configurable</key>
+        <true/>
+        <key>Default Hostname</key>
+        <string>myrelayer.scpri.me</string>
+        <key>Hostname Placeholder</key>
+        <string>myrelayer.scpri.me</string>
+        <key>Port Configurable</key>
+        <true/>
+        <key>Username Configurable</key>
+        <true/>
+        <key>Properties</key>
+        <array>
+        <string>s3.listing.metadata.enable=true</string>
+        </array>
+    </dict>
+</plist>
