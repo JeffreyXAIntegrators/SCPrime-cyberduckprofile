@@ -1,29 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>Protocol</key>
-        <string>SCPrime-http</string>
-        <key>Vendor</key>
-        <string>SCPrime</string>
-        <key>Scheme</key>
-        <array>
-            <string>http</string>
-            <string>https</string>
-        </array>
-        <key>Description</key>
-        <string>SCPrime for both http and https</string>
-        <key>Default Port</key>
-        <string>9000</string>
-        <key>Hostname Configurable</key>
-        <true/>
-        <key>Port Configurable</key>
-        <true/>
-        <key>Username Configurable</key>
-        <true/>
-        <key>Properties</key>
-        <array>
-            <string>s3.listing.metadata.enable=true</string>
-        </array>
-    </dict>
+<dict>
+<key>Protocol</key>
+<string>s3</string>
+<key>Vendor</key>
+<string>s3-aws2-http</string>
+<key>Scheme</key>
+<string>http</string>
+<key>Description</key>
+<string>S3 SCPrime (HTTP)</string>
+<key>Default Port</key>
+<string>80</string>
+<key>Hostname Configurable</key>
+<true/>
+<key>Port Configurable</key>
+<true/>
+<key>Username Configurable</key>
+<true/>
+<key>Authorization</key>
+<string>AWS2</string>
+</dict>
 </plist>
