@@ -3,7 +3,7 @@
 <key>Protocol</key>
 <string>s3</string>
 <key>Vendor</key>
-<string>s3-aws2-http</string>
+<string>s3-scprime-http</string>
 <key>Scheme</key>
 <string>http</string>
 <key>Description</key>
